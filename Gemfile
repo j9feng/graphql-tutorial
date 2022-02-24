@@ -52,4 +52,4 @@ group :development do
   # gem "spring"
 end
 
-gem "graphiql-rails", group: :development
+gem "graphiql-rails", '1.7.0', group: :development
