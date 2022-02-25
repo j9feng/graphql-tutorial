@@ -10,6 +10,7 @@ module Mutations
             Link.create!(
                 description: description,
                 url: url,
+                user: context[:current_user]
             )
         end
     end
